@@ -19,6 +19,6 @@ def build():
         [sg.Button('Salir',font=letter_2, size=(23, 3), key="-exit-")]
     ]
 
-    board = sg.Window('MemPy', layout, location=(630,350),finalize=True,element_justification="center",size=(480,350))
+    board = sg.Window('Actividad 1 x Python Plus - TEORIA -', layout, location=(630,350),finalize=True,element_justification="center",size=(480,350))
 
     return board
